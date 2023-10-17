@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+.App h1 {
+  color: #6e706d;
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  background: #edeef0;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px;
+  background-color: #edeef0;
+  border: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  background: #8eff71;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.buttons {
+  display: flex;
+}
+li span {
+  width: 300px;
+  display: inline-block;
+  text-align: left;
+}
+li button {
+  margin-left: 10px;
+}
+#done {
+  background-color: #8eff71;
+}
+#delete {
+  background-color: #fe4969;
+  color: #fff;
+}
